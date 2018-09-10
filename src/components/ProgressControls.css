@@ -1,0 +1,37 @@
+.ProgressControls {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.ProgressControls .slider {
+  flex-grow: 1;
+  margin-right: 1rem;
+}
+
+.ProgressControls .play-times {
+  display: flex;
+}
+
+.ProgressControls .time-position {
+  font-size: 0.8rem;
+  text-align: left;
+  width: 50%;
+}
+
+.ProgressControls .time-duration {
+  font-size: 0.8rem;
+  text-align: right;
+  width: 50%;
+}
+
+@media (min-width: 768px) {
+  .ProgressControls .time-position {
+    font-size: 1rem;
+  }
+
+  .ProgressControls .time-duration {
+    font-size: 1rem;
+  }
+}

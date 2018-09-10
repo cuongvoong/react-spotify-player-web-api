@@ -1,0 +1,22 @@
+.AlbumArt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AlbumArt img {
+  width: 80%;
+  z-index: 1;
+  border: 1px solid #ddd;
+}
+
+@media (min-width: 460px) {
+  .AlbumArt img {
+    width: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  .AlbumArt img {
+    width: 550px;
+  }
+}

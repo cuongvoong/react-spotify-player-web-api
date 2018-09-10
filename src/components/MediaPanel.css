@@ -1,0 +1,46 @@
+.MediaPanel {
+  /* background-color: #eee; */
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #aaa;
+  box-sizing: border-box;
+  transform: translateY(-10px);
+}
+
+.trackName {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 0.5rem auto;
+  text-align: center;
+}
+
+.artistName,
+.albumName {
+  margin: 0.3rem auto;
+  text-align: center;
+}
+
+@media (min-width: 460px) {
+  .MediaPanel {
+    width: 440px;
+  }
+}
+
+@media (min-width: 768px) {
+  .MediaPanel {
+    width: 600px;
+  }
+
+  .trackName {
+    font-size: 1.4rem;
+  }
+
+  .artistName,
+  .albumName {
+    font-size: 1.1rem;
+  }
+}
